@@ -25,7 +25,7 @@ def kesha_maker(array)
   array.map do |name|
     name_array = name.split("")
     name_array.insert(2,'$')
-    name_array.delete_at(3)
+    .delete_at(3)
     kesha_array << name_array.join("").to_s
   end
   kesha_array
@@ -53,4 +53,4 @@ def add_s(array)
     end
   end
   added_s
-end 
+end
